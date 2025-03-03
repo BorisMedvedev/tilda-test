@@ -130,6 +130,10 @@
       style="padding-top:0px; " data-animationappear="off"
       data-record-type="396" data-screen-max="640px"> <!-- T396 -->
       <style>
+        .t396__elem.tn-elem.tn-elem__3256717251617571657801.t-animate.t-animate_started {
+          pointer-events: none;
+        }
+
         #rec353570841 .tn-atom .t-bgimg .loaded {
           opacity: 0;
         }
@@ -18055,7 +18059,8 @@
             data-field-top-res-960-value="767"
             data-field-left-res-960-value="141"
             data-field-width-res-960-value="150"> <a class='tn-atom'
-              href="#popup:bron_akcii">ДА!</a> </div>
+              href="https://t.me/Sadomoscow">ЗАБРОНИРОВАТЬ В ТЕЛЕГРАМ</a>
+          </div>
           <div
             class='t396__elem tn-elem tn-elem__8565153461618151028850 t-animate'
             data-elem-id='1618151028850' data-elem-type='text'
@@ -22565,9 +22570,13 @@
             data-field-left-res-960-value="352"
             data-field-width-res-960-value="280">
             <div class='tn-atom' field='tn_text_1617832557885'>Свяжитесь с нами
-              в Telegram.
+              в
+              <a style="color: #fff; text-decoration: underline;"
+                href="https://https://t.me/Sadomoscow"
+                target="_blank">Telegram.</a>
               Мы ответим на оставшиеся вопросы, согласуем дату и время, обсудим
-              ваши пожелания. <br></div>
+              ваши пожелания. <br>
+            </div>
           </div>
           <div
             class='t396__elem tn-elem tn-elem__5161377971617832557889 t-animate'
@@ -23966,8 +23975,8 @@
               data-field-left-res-640-value="11"
               data-field-top-res-960-value="165"
               data-field-left-res-960-value="31">
-              <div class='tn-atom' field='tn_text_1618162351499'>Еще больше
-                отзывов в Intagram <br></div>
+              <div class='tn-atom' field='tn_text_1618162351499'>Отзывы<br>
+              </div>
             </div>
             <div class='t396__elem tn-elem tn-elem__3115643231618162468113'
               data-elem-id='1618162468113' data-elem-type='image'
@@ -24056,8 +24065,7 @@
               data-field-top-res-960-value="271"
               data-field-left-res-960-value="252"
               data-field-width-res-960-value="220">
-              <div class='tn-atom' data-zoomable="yes"
-                data-img-zoom-url="https://static.tildacdn.com/tild6164-3263-4837-b634-663637333839/2.png">
+              <div class='tn-atom' data-zoomable="yes" data-img-zoom-url="">
                 <img class='tn-atom__img t-img'
                   data-original='https://static.tildacdn.com/tild6164-3263-4837-b634-663637333839/2.png'
                   alt='' imgfield='tn_img_1620418264668' />
@@ -25804,6 +25812,22 @@
             /* Высота затемнения */
             background: linear-gradient(to top,
                 rgba(0, 0, 0, 0.9) 20%,
+                rgba(0, 0, 0, 0) 100%);
+            pointer-events: none;
+            z-index: 1;
+          }
+
+          // t-zoomable
+          .t-carousel__zoomer__wrapper .t-carousel__zoomer__img::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            /* Высота затемнения */
+            background: linear-gradient(to bottom,
+                rgba(0, 0, 0, 1) 20%,
                 rgba(0, 0, 0, 0) 100%);
             pointer-events: none;
             z-index: 1;
@@ -29167,7 +29191,8 @@
               data-field-top-res-960-value="107"
               data-field-left-res-960-value="4"
               data-field-width-res-960-value="300">
-              <div class='tn-atom'> <img class='tn-atom__img t-img'
+              <div class='tn-atom t-zoomable'> <img class='tn-atom__img t-img'
+                  data-zoomable="yes"
                   data-original='https://static.tildacdn.com/tild3562-6533-4735-b932-616630666138/__.png'
                   alt='' imgfield='tn_img_1618154554401' /> </div>
             </div>
@@ -29191,7 +29216,8 @@
               data-field-top-res-960-value="104"
               data-field-left-res-960-value="328"
               data-field-width-res-960-value="300">
-              <div class='tn-atom'> <img class='tn-atom__img t-img'
+              <div class='tn-atom t-zoomable' data-zoomable="yes"> <img
+                  class='tn-atom__img t-img'
                   data-original='https://static.tildacdn.com/tild3037-6439-4437-b265-393038346439/_Julia.png'
                   alt='' imgfield='tn_img_1618772348211' /> </div>
             </div>
@@ -29215,7 +29241,8 @@
               data-field-top-res-960-value="105"
               data-field-left-res-960-value="654"
               data-field-width-res-960-value="300">
-              <div class='tn-atom'> <img class='tn-atom__img t-img'
+              <div class='tn-atom t-zoomable' data-zoomable="yes"> <img
+                  class='tn-atom__img t-img'
                   data-original='https://static.tildacdn.com/tild6366-6430-4262-b039-373837336438/_Madalene.png'
                   alt='' imgfield='tn_img_1618772352803' /> </div>
             </div>
